@@ -61,9 +61,9 @@ $(document).ready(function () {
         },
         function () {
             $.ajax({
-                url: "DeleteCommentServlet",
-                type: "POST",
-                data: { commentId: $(self).attr("data-commentid") }
+                url: "rest/CommentService/comments/"+$(self).attr("data-commentid"),
+                type: "DELETE",
+                data: { cid: $(self).attr("data-commentid") }
             }).done(function () {
             	console.log("=========>"+"#comment_" + $(self).attr("data-commentid"));
                 $("#comment_" + $(self).attr("data-commentid")).remove();

@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
 <%@include file="head.jsp"%>
-<script type="text/javascript" src="scripts/index.js"></script>
+<script type="text/javascript" src="scripts/index.js?v=10"></script>
 </head>
 <body>
 	<div class="site-wrapper">
