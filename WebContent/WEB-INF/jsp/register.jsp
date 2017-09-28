@@ -9,8 +9,9 @@
  <script type="text/javascript">
 function checkPassword(str)
 {
-  var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
-  return re.test(str);
+	return true;
+  //var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+  //return re.test(str)
 }
 
 function checkForm(form)
