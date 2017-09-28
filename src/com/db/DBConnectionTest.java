@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class DBConnectionTest {
 
-    String dburl = "jdbc:mysql://localhost:3306/carpoolingdb";
+    String dburl = "jdbc:mysql://localhost:3306/carsharingdb";
 
     public DBConnectionTest() {
         try {

@@ -1,4 +1,4 @@
-INSERT INTO `carpoolingdb`.`users`
+INSERT INTO `carsharingdb`.`users`
 (`fullname`,
 `gender`,
 `state`,

@@ -10,7 +10,7 @@ public class DBConnection {
 	private static final String USER = "root";	
 	private static final String PASSWORD = "123456";
 	private static final String DRIVER_URL = "com.mysql.jdbc.Driver";
-	private static final String DB_URL = "jdbc:mysql://localhost:3306/carpoolingdb";
+	private static final String DB_URL = "jdbc:mysql://localhost:3306/carsharingdb";
 	
 	private Connection connection;
 	
